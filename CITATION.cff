@@ -3,6 +3,17 @@ message: "If you use this code or the derived tables, please cite the article be
 title: "Replication package: Trend or Effect? Occupational Exposure to Artificial Intelligence and Relative Employment in Europe, 2011-2025"
 type: software
 license: MIT
+version: 1.0.0
+date-released: 2026-09-29
+repository-code: "https://github.com/wvillegas01/ai-exposure-employment-europe"
+doi: 10.5281/zenodo.23045236
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23045236
+    description: "Concept DOI; always resolves to the latest version."
+  - type: doi
+    value: 10.5281/zenodo.23045237
+    description: "Version 1.0.0, which produced the results in the article."
 authors:
   - family-names: "Villegas-Ch"
     given-names: "William"
