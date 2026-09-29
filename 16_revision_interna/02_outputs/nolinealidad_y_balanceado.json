@@ -1,0 +1,83 @@
+{
+  "interaccion_triple": {
+    "cuota": {
+      "pendiente_mitad_baja": -0.000552,
+      "diferencia_alta_menos_baja": 0.00155,
+      "se": 0.000542,
+      "ic95": [
+        0.000453,
+        0.002647
+      ],
+      "p_igualdad_de_pendientes": 0.0068,
+      "n": 18753,
+      "clusters": 40
+    },
+    "log_empleo": {
+      "pendiente_mitad_baja": -0.03357,
+      "diferencia_alta_menos_baja": 0.07563,
+      "se": 0.033034,
+      "ic95": [
+        0.008813,
+        0.142446
+      ],
+      "p_igualdad_de_pendientes": 0.0275,
+      "n": 18753,
+      "clusters": 40
+    }
+  },
+  "panel_balanceado": {
+    "expuestas_cuota": {
+      "beta_A": [
+        0.000449,
+        0.0328
+      ],
+      "beta_theta": [
+        -5.7e-05,
+        0.8012
+      ],
+      "n": 9000,
+      "clusters": 20
+    },
+    "expuestas_log_empleo": {
+      "beta_A": [
+        0.015865,
+        0.0292
+      ],
+      "beta_theta": [
+        0.008338,
+        0.3115
+      ],
+      "n": 9000,
+      "clusters": 20
+    },
+    "completa_cuota": {
+      "beta_A": [
+        0.000211,
+        0.2585
+      ],
+      "beta_theta": [
+        -3.2e-05,
+        0.8251
+      ],
+      "n": 17625,
+      "clusters": 40
+    },
+    "completa_log_empleo": {
+      "beta_A": [
+        0.01134,
+        0.0358
+      ],
+      "beta_theta": [
+        0.008495,
+        0.1753
+      ],
+      "n": 17625,
+      "clusters": 40
+    }
+  },
+  "panel_balanceado_cobertura": {
+    "filas": 17625,
+    "filas_totales": 18753,
+    "porcentaje": 94.0
+  }
+}

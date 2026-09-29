@@ -1,0 +1,26 @@
+{
+  "completa_cuota": {
+    "expo_post_significativo": "0/5",
+    "expo_post_positivo": "5/5",
+    "expo_t_significativo": "5/5",
+    "theta_post_significativo": "0/5"
+  },
+  "completa_log_empleo": {
+    "expo_post_significativo": "0/5",
+    "expo_post_positivo": "5/5",
+    "expo_t_significativo": "5/5",
+    "theta_post_significativo": "0/5"
+  },
+  "expuestas_cuota": {
+    "expo_post_significativo": "5/5",
+    "expo_post_positivo": "5/5",
+    "expo_t_significativo": "1/5",
+    "theta_post_significativo": "0/5"
+  },
+  "expuestas_log_empleo": {
+    "expo_post_significativo": "5/5",
+    "expo_post_positivo": "5/5",
+    "expo_t_significativo": "1/5",
+    "theta_post_significativo": "0/5"
+  }
+}

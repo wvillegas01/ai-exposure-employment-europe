@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "eurostat_lfsa_egai2d",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/lfsa_egai2d/A..Y15-74.T.THS_PER.?format=SDMX-CSV",
+    "archivo": "eurostat\\lfsa_egai2d.csv",
+    "bytes": 2382119,
+    "sha256": "05024a0f210a19bc1e6572daaab090642b6762cbd4f8253291976a264142826d",
+    "descargado_utc": "2026-08-28T17:21:15+00:00",
+    "nota": "Todas las ocupaciones, todos los paises, todos los anos disponibles."
+  },
+  {
+    "nombre": "aioe_data_appendix",
+    "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/main/AIOE_DataAppendix.xlsx",
+    "archivo": "aioe\\AIOE_DataAppendix.xlsx",
+    "bytes": 170359,
+    "sha256": "c123b4c64840aff3568ae6c97256678719b88a74d45b6362dbefb5af34667b95",
+    "descargado_utc": "2026-08-28T17:21:15+00:00",
+    "nota": "Apendices A-E. A = AIOE por ocupacion SOC 6 digitos."
+  },
+  {
+    "nombre": "onet_31_0",
+    "url": "https://www.onetcenter.org/dl_files/database/db_31_0_excel.zip",
+    "archivo": "onet\\db_31_0_excel.zip",
+    "bytes": 47880800,
+    "sha256": "c63ad00a8e45f3d3ef8e1529fcf8864d2279f2dfcb98737436818f5664781b04",
+    "descargado_utc": "2026-08-28T17:21:49+00:00",
+    "nota": "O*NET 31.0 completo, CC BY 4.0. Base del indice de complementariedad."
+  }
+]

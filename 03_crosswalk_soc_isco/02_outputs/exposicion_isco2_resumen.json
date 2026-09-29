@@ -1,0 +1,24 @@
+{
+  "soc_con_theta_y_aioe": 767,
+  "ocupaciones_panel_con_theta": 40,
+  "sin_theta": [],
+  "corr_aioe_theta": 0.1612,
+  "expuestas_sobre_mediana": 20,
+  "theta_en_expuestas": {
+    "min": 0.4963,
+    "max": 0.7339,
+    "rango": 0.2376
+  },
+  "menor_complementariedad": [
+    "OC41",
+    "OC44",
+    "OC43",
+    "OC95"
+  ],
+  "mayor_complementariedad": [
+    "OC22",
+    "OC11",
+    "OC13",
+    "OC23"
+  ]
+}

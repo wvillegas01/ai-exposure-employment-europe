@@ -1,0 +1,21 @@
+{
+  "n_ocupaciones_onet": 911,
+  "n_soc6": 775,
+  "theta_min_obtenido": 0.3817,
+  "theta_min_ocupacion": "51-9031",
+  "theta_max_obtenido": 0.8142,
+  "theta_max_ocupacion": "29-9091",
+  "theta_mediana_obtenida": 0.6128,
+  "oro_publicado": {
+    "theta_min": 0.31,
+    "theta_max": 0.78,
+    "theta_mediana": 0.58
+  },
+  "hand_cutters_51-9031": 0.3817,
+  "oral_maxillofacial_surgeons_29-1022": 0.7717,
+  "desvios": {
+    "min": 0.0717,
+    "max": 0.0342,
+    "mediana": 0.0328
+  }
+}

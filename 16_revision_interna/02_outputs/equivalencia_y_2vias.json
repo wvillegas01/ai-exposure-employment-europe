@@ -1,0 +1,67 @@
+{
+  "agrupamiento_bidimensional": {
+    "expuestas_cuota_aioe_post": {
+      "beta": 0.000472,
+      "se_2vias": 0.000212,
+      "p_2vias": 0.0383,
+      "G_ocupacion": 20,
+      "G_pais": 33
+    },
+    "expuestas_cuota_theta_post": {
+      "beta": -3.9e-05,
+      "se_2vias": 0.000213,
+      "p_2vias": 0.8581,
+      "G_ocupacion": 20,
+      "G_pais": 33
+    },
+    "expuestas_log_empleo_aioe_post": {
+      "beta": 0.02015,
+      "se_2vias": 0.007822,
+      "p_2vias": 0.0185,
+      "G_ocupacion": 20,
+      "G_pais": 33
+    },
+    "expuestas_log_empleo_theta_post": {
+      "beta": 0.012744,
+      "se_2vias": 0.009421,
+      "p_2vias": 0.192,
+      "G_ocupacion": 20,
+      "G_pais": 33
+    },
+    "completa_cuota_aioe_post": {
+      "beta": 0.000231,
+      "se_2vias": 0.000248,
+      "p_2vias": 0.3581,
+      "G_ocupacion": 40,
+      "G_pais": 33
+    },
+    "completa_cuota_theta_post": {
+      "beta": -3.9e-05,
+      "se_2vias": 0.000141,
+      "p_2vias": 0.7854,
+      "G_ocupacion": 40,
+      "G_pais": 33
+    },
+    "completa_log_empleo_aioe_post": {
+      "beta": 0.004414,
+      "se_2vias": 0.010585,
+      "p_2vias": 0.6795,
+      "G_ocupacion": 40,
+      "G_pais": 33
+    },
+    "completa_log_empleo_theta_post": {
+      "beta": 0.007955,
+      "se_2vias": 0.007386,
+      "p_2vias": 0.2895,
+      "G_ocupacion": 40,
+      "G_pais": 33
+    }
+  },
+  "equivalencia": {
+    "margen": 0.003133,
+    "justificacion": "mayor coeficiente previo de exposicion en la misma especificacion",
+    "anos_contrastados": 11,
+    "equivalentes": 11,
+    "p_tost_maximo": 0.00011
+  }
+}

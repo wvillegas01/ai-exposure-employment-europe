@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived tables, please cite the article below."
+title: "Replication package: Trend or Effect? Occupational Exposure to Artificial Intelligence and Relative Employment in Europe, 2011-2025"
+type: software
+license: MIT
+authors:
+  - family-names: "Villegas-Ch"
+    given-names: "William"
+    affiliation: "Universidad de Las Americas (UDLA), Quito, Ecuador"
+  - family-names: "Gutierrez"
+    given-names: "Rommel"
+    affiliation: "Universidad de Las Americas (UDLA), Quito, Ecuador"
+  - family-names: "Garcia Ortiz"
+    given-names: "Joselin Sofia"
+    affiliation: "Universidad de Las Americas (UDLA), Quito, Ecuador"
+  - family-names: "Govea"
+    given-names: "Jaime"
+    affiliation: "Universidad de Las Americas (UDLA), Quito, Ecuador"
+  - family-names: "Jaramillo-Alcazar"
+    given-names: "Angel"
+    affiliation: "Universidad de Las Americas (UDLA), Quito, Ecuador"
+  - family-names: "Beltran-Morales"
+    given-names: "Jefferson"
+    affiliation: "Universidad Central del Ecuador, Quito, Ecuador"
+preferred-citation:
+  type: article
+  title: "Trend or Effect? Occupational Exposure to Artificial Intelligence and Relative Employment in Europe, 2011-2025"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: "Villegas-Ch"
+      given-names: "William"
+    - family-names: "Gutierrez"
+      given-names: "Rommel"
+    - family-names: "Garcia Ortiz"
+      given-names: "Joselin Sofia"
+    - family-names: "Govea"
+      given-names: "Jaime"
+    - family-names: "Jaramillo-Alcazar"
+      given-names: "Angel"
+    - family-names: "Beltran-Morales"
+      given-names: "Jefferson"

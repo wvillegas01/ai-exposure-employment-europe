@@ -1,0 +1,68 @@
+{
+  "modelo_conjunto_regiones": [
+    {
+      "region": "Nordic",
+      "paises": 5,
+      "coef": 0.014608,
+      "se": 0.014489,
+      "ic_bajo": -0.015717,
+      "ic_alto": 0.044933,
+      "p": 0.326
+    },
+    {
+      "region": "Western",
+      "paises": 8,
+      "coef": -0.004978,
+      "se": 0.01666,
+      "ic_bajo": -0.039848,
+      "ic_alto": 0.029892,
+      "p": 0.7683
+    },
+    {
+      "region": "Southern",
+      "paises": 6,
+      "coef": 0.01591,
+      "se": 0.019831,
+      "ic_bajo": -0.025598,
+      "ic_alto": 0.057418,
+      "p": 0.4323
+    },
+    {
+      "region": "Eastern",
+      "paises": 14,
+      "coef": 0.03845,
+      "se": 0.011813,
+      "ic_bajo": 0.013725,
+      "ic_alto": 0.063175,
+      "p": 0.0042
+    }
+  ],
+  "wald_igualdad_cuatro_regiones": {
+    "F": 1.5248,
+    "p": 0.2404
+  },
+  "wald_este_vs_oeste": {
+    "F": 3.7457,
+    "p": 0.068,
+    "diferencia": 0.043428,
+    "se_diferencia": 0.022439,
+    "ic95": [
+      -0.003537,
+      0.090393
+    ]
+  },
+  "conglomerados_ocupacion": 20,
+  "robustez_no_significativas": {
+    "cuota": [
+      [
+        "4_sin_OC25",
+        0.0757
+      ],
+      [
+        "10_sin_cinco_grandes",
+        0.0528
+      ]
+    ],
+    "log_empleo": []
+  }
+}

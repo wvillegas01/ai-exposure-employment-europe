@@ -1,0 +1,21 @@
+# Los datos fuente no se redistribuyen: se descargan con descarga_fuentes.py y se
+# verifican contra MANIFIESTO.json. Ver LICENSE-DATA.md.
+01_datos_fuente/eurostat/
+01_datos_fuente/aioe/
+01_datos_fuente/onet/
+01_datos_fuente/crosswalk/
+01_datos_fuente/fmi/
+01_datos_fuente/atlas/
+*.xlsx
+*.dta
+*.zip
+
+# Registros de ejecucion
+04_logs/
+**/04_logs/
+*.log
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

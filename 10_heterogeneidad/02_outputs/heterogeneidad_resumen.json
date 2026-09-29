@@ -1,0 +1,10 @@
+{
+  "regiones": 4,
+  "expo_post_positivo": 3,
+  "expo_post_significativo": 1,
+  "rango": [
+    -0.004992,
+    0.038387
+  ],
+  "theta_post_significativo": 3
+}

@@ -1,0 +1,9 @@
+region,paises,dependiente,n,expo_post,p,theta_post,theta_post_p
+Nordicos,5,cuota,1436,0.000598,0.059,-0.000927,0.0257
+Nordicos,5,log_empleo,1436,0.013474,0.2857,-0.037553,0.0456
+Occidental,8,cuota,2278,0.000307,0.3492,0.000141,0.68
+Occidental,8,log_empleo,2278,-0.004992,0.7693,0.014374,0.4118
+Meridional,6,cuota,1758,8.2e-05,0.8314,9.6e-05,0.8383
+Meridional,6,log_empleo,1758,0.016085,0.434,0.020194,0.2397
+Oriental y candidatos,14,cuota,3988,0.000701,0.0258,0.000128,0.5623
+Oriental y candidatos,14,log_empleo,3988,0.038387,0.0019,0.027406,0.03

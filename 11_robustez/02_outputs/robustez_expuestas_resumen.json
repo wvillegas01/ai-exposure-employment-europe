@@ -1,0 +1,22 @@
+{
+  "cuota": {
+    "aioe_post_significativo_en": 10,
+    "variantes": 12,
+    "aioe_post_rango": [
+      0.000356,
+      0.000803
+    ],
+    "aioe_post_positivo_en": 12,
+    "theta_post_significativo_en": 0
+  },
+  "log_empleo": {
+    "aioe_post_significativo_en": 12,
+    "variantes": 12,
+    "aioe_post_rango": [
+      0.018218,
+      0.027212
+    ],
+    "aioe_post_positivo_en": 12,
+    "theta_post_significativo_en": 0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "crudo": {
+    "filas": 29177,
+    "anos": [
+      2011,
+      2025
+    ],
+    "geos": 38,
+    "codigos_isco": 55,
+    "obs_value_nulos": 1004
+  },
+  "muestra": {
+    "filas": 20671,
+    "paises": 36,
+    "ocupaciones": 43,
+    "anos": [
+      2011,
+      2025
+    ],
+    "celdas_techo": 23220,
+    "baja_fiabilidad": 873,
+    "completitud": 0.8902
+  },
+  "rupturas": {
+    "2011": {
+      "obs_con_ruptura": 1920,
+      "geos_afectados": 37
+    },
+    "2012": {
+      "obs_con_ruptura": 102,
+      "geos_afectados": 2
+    },
+    "2013": {
+      "obs_con_ruptura": 108,
+      "geos_afectados": 2
+    },
+    "2014": {
+      "obs_con_ruptura": 159,
+      "geos_afectados": 3
+    },
+    "2015": {
+      "obs_con_ruptura": 53,
+      "geos_afectados": 1
+    },
+    "2016": {
+      "obs_con_ruptura": 53,
+      "geos_afectados": 1
+    },
+    "2017": {
+      "obs_con_ruptura": 160,
+      "geos_afectados": 3
+    },
+    "2018": {
+      "obs_con_ruptura": 160,
+      "geos_afectados": 3
+    },
+    "2019": {
+      "obs_con_ruptura": 109,
+      "geos_afectados": 2
+    },
+    "2020": {
+      "obs_con_ruptura": 103,
+      "geos_afectados": 2
+    },
+    "2021": {
+      "obs_con_ruptura": 1928,
+      "geos_afectados": 36
+    },
+    "2023": {
+      "obs_con_ruptura": 53,
+      "geos_afectados": 1
+    },
+    "2024": {
+      "obs_con_ruptura": 106,
+      "geos_afectados": 2
+    }
+  },
+  "prueba_ruptura_2021": {
+    "salto_medio_2021": 0.002098,
+    "salto_medio_mediano_otros_anos": 0.001453,
+    "ratio_2021": 1.444,
+    "ratio_2020_covid_referencia": 1.157
+  },
+  "aioe": {
+    "filas": 774,
+    "columnas": [
+      "SOC Code",
+      "Occupation Title",
+      "AIOE"
+    ],
+    "nulos": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cuota": {
+    "dependiente": "cuota",
+    "n": 18753,
+    "efectos_absorbidos": 1733,
+    "clusters_ocupacion": 40,
+    "clusters_pais": 33,
+    "wald_previos_F": 5.0428,
+    "wald_previos_p": 0.0001,
+    "previos_significativos": 10,
+    "previos_totales": 11,
+    "posteriores_significativos": 2
+  },
+  "log_empleo": {
+    "dependiente": "log_empleo",
+    "n": 18753,
+    "efectos_absorbidos": 1733,
+    "clusters_ocupacion": 40,
+    "clusters_pais": 33,
+    "wald_previos_F": 4.1822,
+    "wald_previos_p": 0.0004,
+    "previos_significativos": 9,
+    "previos_totales": 11,
+    "posteriores_significativos": 2
+  }
+}

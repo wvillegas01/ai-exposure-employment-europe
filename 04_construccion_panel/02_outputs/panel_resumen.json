@@ -1,0 +1,28 @@
+{
+  "filas": 19609,
+  "columnas": 18,
+  "paises_totales": 36,
+  "paises_muestra_principal": 33,
+  "excluidos": {
+    "sin_periodo_posterior": [
+      "ME",
+      "UK"
+    ],
+    "sin_periodo_previo": [
+      "BA"
+    ]
+  },
+  "ocupaciones": 40,
+  "anos": [
+    2011,
+    2025
+  ],
+  "ano_tratamiento": 2023,
+  "muestra_principal_filas": 18753,
+  "muestra_principal_techo": 19800,
+  "celdas_baja_fiabilidad": 540,
+  "anos_previos_min": 10,
+  "anos_posteriores_min": 3,
+  "aserciones": "7/7 superadas",
+  "muestra_principal_completitud": 0.9471
+}

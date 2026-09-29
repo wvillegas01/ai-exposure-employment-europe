@@ -1,0 +1,59 @@
+{
+  "previas": {
+    "complementariedad": {
+      "max_abs_coef": 0.000243,
+      "mde_mediano": 0.001377,
+      "mde_rango": [
+        0.000305,
+        0.002195
+      ],
+      "ic_mas_ancho": [
+        -0.001524,
+        0.001567
+      ]
+    },
+    "exposicion": {
+      "max_abs_coef": 0.003133,
+      "mde_mediano": 0.001814
+    },
+    "lectura": "El MDE mediano de las previas de complementariedad (0.001377) es del mismo orden que el mayor coeficiente previo de exposicion (0.003133): el diseno descartaria una tendencia previa de complementariedad tan grande como la de exposicion, pero no tendencias menores."
+  },
+  "placebos": {
+    "cuota": {
+      "placebos": 5,
+      "umbral_sidak": 0.0102,
+      "p_minimo_placebo": 0.0346,
+      "placebos_significativos_sin_corregir": 1,
+      "placebos_significativos_con_sidak": 0,
+      "prob_al_menos_uno_por_azar": 0.2262,
+      "real": [
+        0.000472,
+        0.0213
+      ],
+      "real_supera_a_todos_los_placebos": false,
+      "rango_placebos": [
+        -0.000177,
+        0.000577
+      ],
+      "p_por_rango": 0.3333
+    },
+    "log_empleo": {
+      "placebos": 5,
+      "umbral_sidak": 0.0102,
+      "p_minimo_placebo": 0.3572,
+      "placebos_significativos_sin_corregir": 0,
+      "placebos_significativos_con_sidak": 0,
+      "prob_al_menos_uno_por_azar": 0.2262,
+      "real": [
+        0.020149,
+        0.0044
+      ],
+      "real_supera_a_todos_los_placebos": true,
+      "rango_placebos": [
+        -0.006668,
+        0.01274
+      ],
+      "p_por_rango": 0.1667
+    }
+  }
+}

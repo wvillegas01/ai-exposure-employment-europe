@@ -1,0 +1,16 @@
+{
+  "cuota": {
+    "pendiente_previa_por_ano": 0.000295,
+    "mde_salto_nivel": 0.000494,
+    "mde_cambio_pendiente": 0.000221,
+    "mde_pendiente_como_%_de_tendencia_previa": 75.0,
+    "mde_salto_por_1sd_exposicion": 0.000462
+  },
+  "log_empleo": {
+    "pendiente_previa_por_ano": 0.01043,
+    "mde_salto_nivel": 0.024707,
+    "mde_cambio_pendiente": 0.011819,
+    "mde_pendiente_como_%_de_tendencia_previa": 113.3,
+    "mde_salto_por_1sd_exposicion": 0.023103
+  }
+}

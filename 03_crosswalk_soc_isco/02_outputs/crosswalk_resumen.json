@@ -1,0 +1,19 @@
+{
+  "aioe_ocupaciones_soc": 774,
+  "soc_sin_destino_isco": 2,
+  "soc_sin_destino_ejemplos": [
+    "Biologists",
+    "Surgical Technologists"
+  ],
+  "pares_crosswalk": 1131,
+  "isco2_generados": 40,
+  "ocupaciones_eurostat": 43,
+  "cubiertas": 40,
+  "sin_cobertura": [
+    "OC01",
+    "OC02",
+    "OC03"
+  ],
+  "spearman_fraccional_vs_simple": 0.991,
+  "pearson_fraccional_vs_simple": 0.9966
+}

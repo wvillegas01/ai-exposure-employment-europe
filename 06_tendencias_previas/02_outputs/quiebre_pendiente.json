@@ -1,0 +1,40 @@
+{
+  "cuota": {
+    "pendiente_previa_b1": [
+      0.000295,
+      8.2e-05,
+      0.0009
+    ],
+    "salto_nivel_b2": [
+      3.2e-05,
+      0.000172,
+      0.8527
+    ],
+    "cambio_pendiente_b3": [
+      0.000109,
+      7.7e-05,
+      0.1642
+    ],
+    "wald_sin_quiebre_F": 1.3128,
+    "wald_sin_quiebre_p": 0.2807
+  },
+  "log_empleo": {
+    "pendiente_previa_b1": [
+      0.01043,
+      0.003465,
+      0.0046
+    ],
+    "salto_nivel_b2": [
+      -0.006609,
+      0.008598,
+      0.4467
+    ],
+    "cambio_pendiente_b3": [
+      0.006823,
+      0.004113,
+      0.1051
+    ],
+    "wald_sin_quiebre_F": 1.3775,
+    "wald_sin_quiebre_p": 0.2642
+  }
+}

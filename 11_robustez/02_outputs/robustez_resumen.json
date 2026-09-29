@@ -1,0 +1,24 @@
+{
+  "cuota": {
+    "theta_post_significativo_en": 0,
+    "theta_post_variantes": 12,
+    "theta_post_rango": [
+      -0.000142,
+      3.1e-05
+    ],
+    "theta_post_signo_positivo_en": 1,
+    "aioe_t_significativo_en": 12,
+    "aioe_post_significativo_en": 1
+  },
+  "log_empleo": {
+    "theta_post_significativo_en": 0,
+    "theta_post_variantes": 12,
+    "theta_post_rango": [
+      0.005243,
+      0.013414
+    ],
+    "theta_post_signo_positivo_en": 12,
+    "aioe_t_significativo_en": 12,
+    "aioe_post_significativo_en": 0
+  }
+}

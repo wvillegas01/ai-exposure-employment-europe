@@ -1,0 +1,19 @@
+{
+  "empleo_total_2011_miles": 216054,
+  "empleo_total_2025_miles": 248891,
+  "trayectoria_2025_indice_2011": {
+    "Q1 baja": 96.9,
+    "Q2": 112.8,
+    "Q3": 121.7,
+    "Q4 alta": 134.2
+  },
+  "trayectoria_2022_indice_2011": {
+    "Q1 baja": 98.1,
+    "Q2": 110.2,
+    "Q3": 114.9,
+    "Q4 alta": 125.8
+  },
+  "corr_aioe_crecimiento_previo": 0.366,
+  "corr_aioe_crecimiento_posterior": 0.544,
+  "corr_theta_crecimiento_posterior": 0.39
+}

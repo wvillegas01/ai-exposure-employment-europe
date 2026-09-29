@@ -1,0 +1,106 @@
+{
+  "expuestas_cuota_aioe_post": {
+    "beta": 0.000472,
+    "se_agrupado": 0.000188,
+    "p_agrupado": 0.0213,
+    "t_observado": 2.5094,
+    "p_wild_bootstrap": 0.0261,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.148,
+      2.19
+    ],
+    "clusters": 20
+  },
+  "expuestas_cuota_theta_post": {
+    "beta": -3.9e-05,
+    "se_agrupado": 0.000206,
+    "p_agrupado": 0.8535,
+    "t_observado": -0.1871,
+    "p_wild_bootstrap": 0.8486,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.349,
+      2.374
+    ],
+    "clusters": 20
+  },
+  "expuestas_log_empleo_aioe_post": {
+    "beta": 0.02015,
+    "se_agrupado": 0.006246,
+    "p_agrupado": 0.0044,
+    "t_observado": 3.2261,
+    "p_wild_bootstrap": 0.0034,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.055,
+      2.058
+    ],
+    "clusters": 20
+  },
+  "expuestas_log_empleo_theta_post": {
+    "beta": 0.012744,
+    "se_agrupado": 0.007782,
+    "p_agrupado": 0.1179,
+    "t_observado": 1.6377,
+    "p_wild_bootstrap": 0.1337,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.068,
+      2.078
+    ],
+    "clusters": 20
+  },
+  "completa_cuota_aioe_post": {
+    "beta": 0.000231,
+    "se_agrupado": 0.000178,
+    "p_agrupado": 0.2007,
+    "t_observado": 1.3015,
+    "p_wild_bootstrap": 0.2265,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.032,
+      2.05
+    ],
+    "clusters": 40
+  },
+  "completa_cuota_theta_post": {
+    "beta": -3.9e-05,
+    "se_agrupado": 0.000142,
+    "p_agrupado": 0.786,
+    "t_observado": -0.2734,
+    "p_wild_bootstrap": 0.7858,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -2.125,
+      2.147
+    ],
+    "clusters": 40
+  },
+  "completa_log_empleo_aioe_post": {
+    "beta": 0.004414,
+    "se_agrupado": 0.007873,
+    "p_agrupado": 0.5783,
+    "t_observado": 0.5606,
+    "p_wild_bootstrap": 0.6007,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -1.76,
+      1.745
+    ],
+    "clusters": 40
+  },
+  "completa_log_empleo_theta_post": {
+    "beta": 0.007955,
+    "se_agrupado": 0.006547,
+    "p_agrupado": 0.2317,
+    "t_observado": 1.2151,
+    "p_wild_bootstrap": 0.2246,
+    "replicas": 9999,
+    "t_critico_bootstrap_95": [
+      -1.976,
+      1.993
+    ],
+    "clusters": 40
+  }
+}

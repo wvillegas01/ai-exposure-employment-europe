@@ -1,0 +1,28 @@
+{
+  "cuota": {
+    "falsos_significativos": 1,
+    "falsos_totales": 5,
+    "falsos_positivos": 3,
+    "real_2023": [
+      0.000472,
+      0.0213
+    ],
+    "rango_falsos": [
+      -0.000177,
+      0.000577
+    ]
+  },
+  "log_empleo": {
+    "falsos_significativos": 0,
+    "falsos_totales": 5,
+    "falsos_positivos": 3,
+    "real_2023": [
+      0.020149,
+      0.0044
+    ],
+    "rango_falsos": [
+      -0.006668,
+      0.01274
+    ]
+  }
+}
