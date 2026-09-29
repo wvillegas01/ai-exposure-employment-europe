@@ -2,28 +2,78 @@
   {
     "nombre": "eurostat_lfsa_egai2d",
     "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/lfsa_egai2d/A..Y15-74.T.THS_PER.?format=SDMX-CSV",
-    "archivo": "eurostat\\lfsa_egai2d.csv",
+    "archivo": "eurostat/lfsa_egai2d.csv",
     "bytes": 2382119,
     "sha256": "05024a0f210a19bc1e6572daaab090642b6762cbd4f8253291976a264142826d",
     "descargado_utc": "2026-08-28T17:21:15+00:00",
-    "nota": "Todas las ocupaciones, todos los paises, todos los anos disponibles."
+    "nota": "Todas las ocupaciones, todos los paises, todos los anos disponibles. Historical snapshot included unchanged because the live API revised 112 OBS_VALUE entries by 2026-09-29.",
+    "incluido": true
   },
   {
     "nombre": "aioe_data_appendix",
-    "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/main/AIOE_DataAppendix.xlsx",
-    "archivo": "aioe\\AIOE_DataAppendix.xlsx",
+    "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/adca5fc2cd0e9a659ff05278b7fa7a53f4f324c1/AIOE_DataAppendix.xlsx",
+    "archivo": "aioe/AIOE_DataAppendix.xlsx",
     "bytes": 170359,
     "sha256": "c123b4c64840aff3568ae6c97256678719b88a74d45b6362dbefb5af34667b95",
     "descargado_utc": "2026-08-28T17:21:15+00:00",
-    "nota": "Apendices A-E. A = AIOE por ocupacion SOC 6 digitos."
+    "nota": "Apendices A-E. A = AIOE por ocupacion SOC 6 digitos.",
+    "url_original": "https://raw.githubusercontent.com/AIOE-Data/AIOE/main/AIOE_DataAppendix.xlsx"
   },
   {
     "nombre": "onet_31_0",
     "url": "https://www.onetcenter.org/dl_files/database/db_31_0_excel.zip",
-    "archivo": "onet\\db_31_0_excel.zip",
+    "archivo": "onet/db_31_0_excel.zip",
     "bytes": 47880800,
     "sha256": "c63ad00a8e45f3d3ef8e1529fcf8864d2279f2dfcb98737436818f5664781b04",
     "descargado_utc": "2026-08-28T17:21:49+00:00",
     "nota": "O*NET 31.0 completo, CC BY 4.0. Base del indice de complementariedad."
+  },
+  {
+    "nombre": "Language_Modeling_AIOE_and_AIIE",
+    "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/adca5fc2cd0e9a659ff05278b7fa7a53f4f324c1/Language%20Modeling%20AIOE%20and%20AIIE.xlsx",
+    "archivo": "aioe/Language_Modeling_AIOE_and_AIIE.xlsx",
+    "bytes": 55714,
+    "sha256": "ccdd1fb916dfa404914367eafde7c00b7148ea86f18fe616240bc85cf6131c8b",
+    "descargado_utc": null,
+    "registrado_utc": "2026-09-29T16:38:51+00:00",
+    "nota": "Original local source; original download timestamp was not recorded. URL verified during the reproducibility audit."
+  },
+  {
+    "nombre": "Image_Generation_AIOE_and_AIIE",
+    "url": "https://raw.githubusercontent.com/AIOE-Data/AIOE/adca5fc2cd0e9a659ff05278b7fa7a53f4f324c1/Image%20Generation%20AIOE%20and%20AIIE.xlsx",
+    "archivo": "aioe/Image_Generation_AIOE_and_AIIE.xlsx",
+    "bytes": 55523,
+    "sha256": "62c310544a6c1181037484b4c4017443c8d32661a0bdd482967a108aa224f5f7",
+    "descargado_utc": null,
+    "registrado_utc": "2026-09-29T16:38:51+00:00",
+    "nota": "Original local source; original download timestamp was not recorded. URL verified during the reproducibility audit."
+  },
+  {
+    "nombre": "soc10_isco08",
+    "url": "https://raw.githubusercontent.com/eworx-org/iscoCrosswalks/edd503a2108ff61cf89962b7b569a1d5b93eaf4b/data-raw/stata_dset/onetsoc_to_isco_cws_ibs/soc10_isco08.dta",
+    "archivo": "crosswalk/soc10_isco08.dta",
+    "bytes": 7396,
+    "sha256": "ba625e7e30b9d492d9857ebf5693a87a3ea715352f07d2e9070d2e1f94cc5791",
+    "descargado_utc": null,
+    "registrado_utc": "2026-09-29T16:38:51+00:00",
+    "nota": "Original local source; original download timestamp was not recorded. URL verified during the reproducibility audit."
+  },
+  {
+    "nombre": "2010_to_2019_SOC_Crosswalk",
+    "url": "https://www.onetcenter.org/taxonomy/2019/walk/2010_to_2019_Crosswalk.xlsx?fmt=xlsx",
+    "archivo": "crosswalk/2010_to_2019_SOC_Crosswalk.xlsx",
+    "bytes": 47190,
+    "sha256": "993fda20fc2068653a0507f8516bb7a750ae1ecbd7dcbd55795b585b741c82b2",
+    "descargado_utc": null,
+    "registrado_utc": "2026-09-29T16:38:51+00:00",
+    "nota": "Original local source; original download timestamp was not recorded. URL verified during the reproducibility audit.",
+    "variantes_verificadas": [
+      {
+        "bytes": 47030,
+        "sha256": "e43815d9c3aefd96ced5a8f1c2f73b3c646aa99d25f6b73d3684b825cec24707",
+        "verificado_utc": "2026-09-29T16:38:51+00:00",
+        "nota": "All uncompressed XLSX members are byte-identical to the original; only ZIP container encoding differs. All 1164 rows and four columns also match."
+      }
+    ]
   }
 ]

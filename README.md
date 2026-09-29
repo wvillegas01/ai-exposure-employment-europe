@@ -8,41 +8,60 @@ print in full.
 
 ## What is and is not included
 
-Included: the analysis code (23 scripts), the 50 derived tables in CSV and JSON produced by
-those scripts, the 12 figure files, and the registry of source files with their URLs, sizes and
-SHA-256 checksums.
+Included: 23 analysis scripts, one source downloader, 50 derived CSV/JSON outputs,
+12 figure files, the seven-source manifest, and the original Eurostat snapshot.
+`reproduce.py` runs the analysis in dependency order.
 
-Not included: the source data themselves, about 56 MB. They are not redistributed because they
-are already public and are better obtained from their own providers, which also guarantees that
-a replication starts from the same bytes we used. `01_datos_fuente/01_scripts/descarga_fuentes.py`
-downloads all of them and verifies each checksum against `01_datos_fuente/MANIFIESTO.json`.
-
-Also not included: the code that typesets the manuscript and its bibliography. It reproduces the
-document, not the results.
+The Eurostat snapshot (downloaded on 28 August 2026) is included unchanged because the live
+API has since revised observations. Source: Eurostat, `lfsa_egai2d`; see `LICENSE-DATA.md`.
+The remaining six inputs are downloaded from their providers and checked against recorded
+SHA-256 hashes before being saved. Source files and the historical manifest are never
+silently overwritten. Manuscript typesetting code is outside this package.
 
 ## How to reproduce
 
-```
-python 01_datos_fuente/01_scripts/descarga_fuentes.py
+Use CPython 3.8.10 and a separate environment. On Windows:
+
+```powershell
+py -3.8 -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+.venv/Scripts/python.exe reproduce.py
 ```
 
-Then run each stage in numerical order; every script writes into the `02_outputs` folder of its
-own stage and reads only from earlier stages, so the order is the dependency order:
+On systems with Python 3.8 installed:
 
-```
-python 02_auditoria_datos/01_scripts/auditoria_datos.py
-python 03_crosswalk_soc_isco/01_scripts/crosswalk_aioe.py
-...
-python 16_revision_interna/01_scripts/inferencia_robusta.py
+```sh
+python3.8 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python reproduce.py
 ```
 
-Scripts resolve their paths relative to their own location, so the package runs from wherever it
-is unpacked.
+`reproduce.py` verifies/downloads the seven inputs, runs all 23 analysis scripts and stops
+at the first error. It regenerates the packaged outputs, so use a fresh checkout for replication.
+The bootstrap uses 9,999 draws and may take several minutes. Seeds and draw counts are unchanged.
+
+```sh
+python reproduce.py --list
+python reproduce.py --offline
+python -m unittest discover -s tests
+```
+
+`--list` prints the full dependency order without running. `--offline` requires all seven
+inputs to be present and verified. Numerical stage labels are not execution order: exposure
+aggregation needs the panel from stage 04, stage 05 needs indices from stage 09, and figures
+need stage 16. Script paths are resolved relative to the package.
+
+If a hash differs, stop and obtain the recorded input; do not replace the expected hash with
+the new one. The O*NET crosswalk has one explicitly recorded equivalent XLSX container:
+all uncompressed members were compared byte for byte with the original. This does not allow
+arbitrary new versions. The Eurostat snapshot must be retained to reproduce the original analysis.
 
 ## Environment
 
-Python 3.8.10 with `numpy` 1.24.3, `pandas` 2.0.3, `scipy` 1.10.1, `pyhdfe` 0.1.2 for
-fixed-effects absorption and `matplotlib` 3.7.5 for figures.
+Python 3.8.10 with `numpy` 1.24.3, `pandas` 2.0.3, `scipy` 1.10.1, `pyhdfe` 0.1.2,
+`matplotlib` 3.7.5 and `openpyxl` 3.1.5. `requirements.txt` pins these and their installed
+runtime dependencies. This historical environment is retained for replication.
+See `REPRODUCIBILITY.md` for the validation scope and remaining limitations.
 
 ## Where each result comes from
 
@@ -71,12 +90,14 @@ above.
 | Source | Licence |
 | --- | --- |
 | Eurostat `lfsa_egai2d`, employment by occupation | Eurostat reuse policy |
-| AI occupational exposure indices, `github.com/AIOE-Data/AIOE` | public repository |
+| AI occupational exposure indices, `github.com/AIOE-Data/AIOE` | Citation requested; no explicit data licence found; see `LICENSE-DATA.md` |
 | O\*NET database 31.0 | Creative Commons Attribution 4.0 |
-| SOC–ISCO crosswalk, `iscoCrosswalks` | MIT |
+| SOC–ISCO crosswalk distributed by `iscoCrosswalks` | Package MIT; original crosswalk attribution retained |
+| O*NET-SOC 2010–2019 crosswalk | Provider terms; retrieved from O*NET |
 
-`01_datos_fuente/MANIFIESTO.json` records, for every file, the URL it came from, its size in
-bytes, its SHA-256 checksum and the UTC timestamp of the download.
+`01_datos_fuente/MANIFIESTO.json` records seven inputs with verified retrieval URLs, sizes
+and SHA-256 hashes. Three original download timestamps survive; the four missing timestamps
+are explicitly null. Audit registration dates are not presented as historical download dates.
 
 ## Note on comments
 
@@ -85,9 +106,9 @@ research team. Variable names, outputs and this document are in English.
 
 ## Licence
 
-The code is released under the MIT licence (`LICENSE`). The derived tables are **not** covered by
-it: they inherit the terms of the sources they are built from, chiefly the Creative Commons
-Attribution 4.0 licence of O\*NET. See `LICENSE-DATA.md` for the attribution that reuse requires.
+The original code is released under MIT (`LICENSE`). This is not a blanket licence for
+source data or mixed-source tables. `LICENSE-DATA.md` records source attributions,
+applicable terms and the unresolved AIOE reuse terms. A public source is not itself a licence.
 
 ## Citation
 

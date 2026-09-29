@@ -1,6 +1,7 @@
-# Los datos fuente no se redistribuyen: se descargan con descarga_fuentes.py y se
-# verifican contra MANIFIESTO.json. Ver LICENSE-DATA.md.
-01_datos_fuente/eurostat/
+# Eurostat snapshot is retained for exact replication. Other inputs are downloaded
+# and verified against MANIFIESTO.json. See LICENSE-DATA.md.
+01_datos_fuente/eurostat/*
+!01_datos_fuente/eurostat/lfsa_egai2d.csv
 01_datos_fuente/aioe/
 01_datos_fuente/onet/
 01_datos_fuente/crosswalk/
@@ -19,3 +20,5 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+.venv/
