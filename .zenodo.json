@@ -1,0 +1,46 @@
+{
+  "upload_type": "software",
+  "title": "Replication package: Trend or Effect? Occupational Exposure to Artificial Intelligence and Relative Employment in Europe, 2011-2025",
+  "description": "<p>Analysis code and derived tables behind every estimate reported in the article <em>Trend or Effect? Occupational Exposure to Artificial Intelligence and Relative Employment in Europe, 2011-2025</em>.</p><p>The package covers the construction of a panel of 33 European countries by 40 two-digit ISCO-08 occupations over 2011-2025, the aggregation of the AI occupational exposure indices from SOC to ISCO, the reconstruction of the complementarity index from O*NET descriptors, and the full estimation chain: two-way fixed effects absorbed by alternating projections, event study and pre-trend tests with confidence intervals and minimum detectable effects, equivalence testing, eleven robustness variants, five exposure measures, placebo cutoffs and regional estimates, with wild cluster bootstrap and two-way clustered inference.</p><p>Source data are not redistributed, with one exception. MANIFIESTO.json records the URL, size and SHA-256 checksum of each input, and the downloader verifies every file against it and refuses to proceed on a mismatch. The Eurostat table is a live SDMX query rather than a static file, so the snapshot that produced the published estimates is included to make the results reproducible exactly.</p><p>The MIT licence covers the code only. Tables derived from O*NET carry the Creative Commons Attribution 4.0 licence; see LICENSE-DATA.md for the attribution that reuse requires.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Villegas-Ch, William",
+      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
+    },
+    {
+      "name": "Gutierrez, Rommel",
+      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
+    },
+    {
+      "name": "Garcia Ortiz, Joselin Sofia",
+      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
+    },
+    {
+      "name": "Govea, Jaime",
+      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
+    },
+    {
+      "name": "Jaramillo-Alcazar, Angel",
+      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
+    },
+    {
+      "name": "Beltran-Morales, Jefferson",
+      "affiliation": "Universidad Central del Ecuador, Quito, Ecuador"
+    }
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "occupational exposure",
+    "employment composition",
+    "labour market",
+    "difference-in-differences",
+    "event study",
+    "Europe",
+    "ISCO-08",
+    "reproducibility"
+  ],
+  "notes": "Source data come from Eurostat (lfsa_egai2d), the AI occupational exposure indices published at github.com/AIOE-Data/AIOE, O*NET database 31.0 under CC BY 4.0, and the SOC-to-ISCO crosswalk of the iscoCrosswalks package under MIT."
+}
