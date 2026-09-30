@@ -110,6 +110,10 @@ The original code is released under MIT (`LICENSE`). This is not a blanket licen
 source data or mixed-source tables. `LICENSE-DATA.md` records source attributions,
 applicable terms and the unresolved AIOE reuse terms. A public source is not itself a licence.
 
+## Authorship of this package
+
+This repository and its Zenodo deposit credit the authors of the **code**, which is a smaller set than the author list of the article it accompanies. The two lists are meant to differ: `CITATION.cff` records both, the code authors under `authors` and the article's own authors under `preferred-citation`.
+
 ## Citation
 
 See `CITATION.cff`. Until the article is published, cite it as a submitted manuscript; this file

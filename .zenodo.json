@@ -15,20 +15,8 @@
       "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
     },
     {
-      "name": "Garcia Ortiz, Joselin Sofia",
-      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
-    },
-    {
       "name": "Govea, Jaime",
       "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
-    },
-    {
-      "name": "Jaramillo-Alcazar, Angel",
-      "affiliation": "Universidad de Las Americas (UDLA), Quito, Ecuador"
-    },
-    {
-      "name": "Beltran-Morales, Jefferson",
-      "affiliation": "Universidad Central del Ecuador, Quito, Ecuador"
     }
   ],
   "keywords": [
@@ -42,5 +30,5 @@
     "ISCO-08",
     "reproducibility"
   ],
-  "notes": "Source data come from Eurostat (lfsa_egai2d), the AI occupational exposure indices published at github.com/AIOE-Data/AIOE, O*NET database 31.0 under CC BY 4.0, and the SOC-to-ISCO crosswalk of the iscoCrosswalks package under MIT."
+  "notes": "Source data come from Eurostat (lfsa_egai2d), the AI occupational exposure indices published at github.com/AIOE-Data/AIOE, O*NET database 31.0 under CC BY 4.0, and the SOC-to-ISCO crosswalk of the iscoCrosswalks package under MIT. This deposit credits the authors of the code. The article it accompanies has a different and larger author list; see the article's own author line."
 }
